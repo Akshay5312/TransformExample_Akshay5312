@@ -16,6 +16,7 @@ for(int i=0;i<15;i++){
 		.translate(i*3,0,40)// X , y, z	
  		.rot( 0, -90, 90) // x,y,z	
  		)
+}
 // Add z and get 3d spiral
 for(int i=0;i<15;i++){
 	listOfLocations.add(new Transform()
