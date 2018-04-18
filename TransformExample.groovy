@@ -31,6 +31,7 @@ def object = new Cylinder(	20, // Radius at the bottom
                       		20, // Height
                       		(int)3 //resolution
                       		).toCSG()//convert to CSG to display 
+                      		.rotz(-30)
 // apply each transform and collect the result in a new list
 def movedObjects = listOfLocations.collect{object.transformed(it)}
 
