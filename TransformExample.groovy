@@ -16,8 +16,8 @@ def piontermoved =  pionter
 		.rotz( 10) // x,y,z	
 		.movex(20)// X , y, z	
  		.roty( 45) // x,y,z
-			
+		.movez(1)// move it up to see that its even there	
 // return the list of parts
 return [pionterftmoved,
-piontermoved.movez(1)// move it up to see that its even there
+piontermoved
 ]
